@@ -1,0 +1,265 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\JJJJ.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\JJJJ.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "科学计算器2.0版",IDC_STATIC,40,15,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (T) 2011",IDC_STATIC,39,30,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,19,50,14,WS_GROUP
+END
+
+IDD_JJJJ_DIALOG DIALOGEX 0, 0, 335, 199
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "JJJJ"
+MENU IDR_MENU1
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "数制选择",IDC_STATIC,7,51,207,28,WS_GROUP
+    EDITTEXT        IDC_EDIT1,7,7,207,43,ES_AUTOHSCROLL | ES_READONLY,
+                    WS_EX_TRANSPARENT | WS_EX_RIGHT
+    PUSHBUTTON      "7",IDC_7,7,85,36,24
+    PUSHBUTTON      "8",IDC_8,47,85,36,24
+    PUSHBUTTON      "9",IDC_9,87,85,36,24
+    PUSHBUTTON      "+",IDC_add,127,85,36,24
+    PUSHBUTTON      "4",IDC_4,7,113,36,24
+    PUSHBUTTON      "5",IDC_5,47,113,36,24
+    PUSHBUTTON      "6",IDC_6,87,113,36,24
+    PUSHBUTTON      "-",IDC_sub,127,113,36,24
+    PUSHBUTTON      "1",IDC_1,7,140,36,24
+    PUSHBUTTON      "2",IDC_2,47,140,36,24
+    PUSHBUTTON      "3",IDC_3,87,140,36,24
+    PUSHBUTTON      "×",IDC_mul,127,140,36,24
+    PUSHBUTTON      ".",IDC_point,7,168,36,24
+    PUSHBUTTON      "0",IDC_0,47,168,36,24
+    PUSHBUTTON      "+/-",IDC_zf,87,168,36,24
+    PUSHBUTTON      "÷",IDC_dev,127,168,36,24
+    CONTROL         "二进制",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,13,63,40,
+                    10
+    CONTROL         "八进制",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,61,63,40,
+                    10
+    CONTROL         "十进制",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,115,63,
+                    40,10
+    CONTROL         "十六进制",IDC_RADIO16,"Button",BS_AUTORADIOBUTTON,165,
+                    63,48,10
+    PUSHBUTTON      "C",IDC_clear,168,85,36,24
+    PUSHBUTTON      "M",IDC_m,168,113,36,24
+    PUSHBUTTON      "MC",IDC_mc,168,140,36,24
+    PUSHBUTTON      "=",IDC_eq,168,168,36,24
+    PUSHBUTTON      "sinh",IDC_sin,209,113,36,24
+    PUSHBUTTON      "cosh",IDC_cos,209,141,36,24
+    PUSHBUTTON      "tanh",IDC_tan,209,168,36,24
+    GROUPBOX        "选择",IDC_STATIC,231,51,96,27,WS_GROUP
+    CONTROL         "角度",IDC_jdu,"Button",BS_AUTORADIOBUTTON,240,64,32,10
+    CONTROL         "弧度",IDC_hdu,"Button",BS_AUTORADIOBUTTON,288,64,32,10
+    EDITTEXT        IDC_EDIT2,231,7,95,19,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    PUSHBUTTON      "A",IDC_a,250,85,36,24
+    PUSHBUTTON      "C",IDC_c,250,113,36,24
+    PUSHBUTTON      "E",IDC_e,250,140,36,24
+    PUSHBUTTON      "B",IDC_b,291,85,36,24
+    PUSHBUTTON      "D",IDC_d,291,113,36,24
+    PUSHBUTTON      "F",IDC_f,291,140,36,24
+    PUSHBUTTON      "Restart",IDC_tan3,250,168,78,24
+    EDITTEXT        IDC_EDIT3,231,31,95,19,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    PUSHBUTTON      "←",IDC_back,209,85,36,24
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "JJJJ Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "JJJJ\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2011\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "JJJJ.EXE\0"
+            VALUE "ProductName", "JJJJ 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_JJJJ_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "关于",                        ID_MENUITEM32771
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 JJJJ(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\JJJJ.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
